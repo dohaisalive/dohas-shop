@@ -1,21 +1,37 @@
-img {
+.mainPic {
   width: 100%;
+}
+
+.Product{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.ProductImage{
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.listOfItems{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 3%;
+  padding-top: 3%;
 }
 
 .App {
   text-align: center;
   justify-content: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {

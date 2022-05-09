@@ -3,13 +3,20 @@ const products = [
     name: "orchid",
     price: 34,
     image:
-      "https://www.ikea.com/kw/en/images/products/fejka-artificial-potted-plant-orchid-white__0748880_pe745269_s5.jpg",
+      "https://bouqs.com/product_images/growers-choice-orchid/Deluxe/611b7252c8a4ae306eeadb6c/detail.jpg?c=1629188690",
   },
 
   {
     name: "jasmine",
     price: 23,
-    image: "https://gilmour.com/wp-content/uploads/2019/05/Jasmine-Care.jpg",
+    image:
+      "http://cdn.shopify.com/s/files/1/1419/7120/products/Philippine_Jasmine-1.ETGB_800x.jpg?v=1571439551",
+  },
+
+  {
+    name: "rose",
+    price: 11,
+    image: "https://www.jacksonandperkins.com/images/xxl/v1780.jpg",
   },
 ];
 
